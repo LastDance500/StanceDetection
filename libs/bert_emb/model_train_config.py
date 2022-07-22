@@ -1,0 +1,23 @@
+Config = {
+  "model": 'bert-base-uncased',
+  "cuda_index": 3,
+  "Tokenizer": 'bert-base-uncased',
+  "epoch_number": 10,
+  "batch_size": 4,
+  "number_of_label": 4,
+  "lr": 1e-5,
+  "max_length": 512,
+  "num_labels": 4,
+  "data_name": "CSV_AET",
+  "use_cls": True,
+  "use_albert": False,
+  "new_bert": True,
+  'learning_rate': 1e-4,
+  'sentence_dim': 768,
+  'output_dim': 4,
+  'batch_length': 20,
+  'train_emb_path': '/dataset/sentence_emb/CSV_train_emb.npy',
+  'train_label_path': '/dataset/sentence_emb/CSV_train_label.npy',
+  'test_emb_path': '/dataset/sentence_emb/CSV_emb.npy',
+  'test_label_path': '/dataset/sentence_emb/CSV_label.npy'
+}
